@@ -346,12 +346,13 @@ ul.section-list li::before {
 }
 
 .table-item {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  display: block;
   color: var(--color-ink-soft);
   background-color: var(--color-surface);
+}
+
+.table-item .heading-note {
+  margin-left: 0.41em;
 }
 
 .table-item a {
@@ -643,6 +644,10 @@ ul.section-list li::before {
 
   .heading-note_block {
     display: block;
+  }
+
+  .table-item .heading-note_block {
+    margin-left: 0;
   }
 
   .table-label {
