@@ -106,7 +106,8 @@ a:hover {
 #terms,
 #privacy,
 #external-tools,
-#external-tool-summary {
+#external-tool-summary,
+#legal-pages {
   padding-top: 72px;
 }
 
@@ -451,6 +452,22 @@ ul.section-list li::before {
   color: var(--color-ink-soft);
 }
 
+#legal-pages .page_list {
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+#legal-pages .page_list li {
+  margin-bottom: 16px;
+}
+
+#legal-pages .page_list a {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
 .container .table .section-list {
   margin: 0;
 }
@@ -593,7 +610,8 @@ ul.section-list li::before {
   #terms,
   #privacy,
   #external-tools,
-  #external-tool-summary {
+  #external-tool-summary,
+  #legal-pages {
     padding-top: 56px;
   }
 
