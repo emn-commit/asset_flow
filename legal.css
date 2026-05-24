@@ -53,6 +53,10 @@ a:hover {
   transition: opacity 0.3s;
 }
 
+.text-link {
+  text-decoration: underline;
+}
+
 .hover-effect:hover {
   opacity: 0.72;
   transition: opacity 0.3s;
@@ -446,6 +450,10 @@ ul.section-list li::before {
 .container ul {
   margin-left: 25px;
   margin-bottom: 28px;
+}
+
+.container ul:has(+ p > .text-link) {
+  margin-bottom: 8px;
 }
 
 .container li {
