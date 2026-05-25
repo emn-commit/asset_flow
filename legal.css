@@ -111,7 +111,8 @@ a:hover {
 #privacy,
 #external-tools,
 #external-tool-summary,
-#legal-pages {
+#legal-pages,
+#commerce {
   padding-top: 72px;
 }
 
@@ -620,7 +621,8 @@ ul.section-list li::before {
   #privacy,
   #external-tools,
   #external-tool-summary,
-  #legal-pages {
+  #legal-pages,
+  #commerce {
     padding-top: 56px;
   }
 
